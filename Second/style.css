@@ -1,0 +1,60 @@
+body {
+  margin: 5px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed black;
+  position: relative;
+}
+
+.red-angle {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.orange-angle {
+  height: 50px;
+  width: 100px;
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.yellow-angle {
+  height: 50px;
+  width: 100px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.green-angle {
+  height: 50px;
+  width: 100px;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.blue-centered-item {
+  height: 50px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+}

@@ -1,0 +1,58 @@
+body {
+  margin: 5px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 500px;
+  width: 500px;
+  border: 1px solid red;
+  position: relative;
+}
+
+.blue-box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 20%;
+  position: absolute;
+  z-index: 3;
+  left: 20px;
+  top: 5px;
+}
+
+.lightblue-box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 20%;
+  position: absolute;
+  z-index: 4;
+  left: 20px;
+  top: 50px;
+}
+
+.brown-box {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  border-radius: 20%;
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+  top: 110px;
+}
+
+.purple-box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 20%;
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 20px;
+}

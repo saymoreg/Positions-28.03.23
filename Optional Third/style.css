@@ -1,0 +1,35 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 5px;
+  padding: 0;
+}
+
+.scroll-to-top {
+  position: relative;
+}
+
+.scroll-icon {
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  z-index: 9999;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  transition: 0.7s;
+}
+
+.scroll-icon:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.7s;
+}
+
+img{
+  width: auto;
+  height: auto;
+}
